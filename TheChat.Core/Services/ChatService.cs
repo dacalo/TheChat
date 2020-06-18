@@ -14,6 +14,7 @@ namespace TheChat.Core.Services
         private SemaphoreSlim semaphoreSlim = new SemaphoreSlim(1, 1);
         private HttpClient httpClient;
         HubConnection hub;
+        
         public bool IsConnected { get; set; }
         public string ConnectionToken { get; set; }
 
@@ -44,6 +45,8 @@ namespace TheChat.Core.Services
 
             var info = JsonConvert.DeserializeObject<ConnectionInfo>(result);
 
+
+            //Conexion al SignalR
             var connectionBuilder = new HubConnectionBuilder();
 
             connectionBuilder.WithUrl(info.Url, (obj) =>
