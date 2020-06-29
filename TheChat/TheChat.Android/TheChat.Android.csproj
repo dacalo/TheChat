@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v9.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -94,7 +93,7 @@
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\TheChat\TheChat.csproj">
-      <Project>{98EF8A1F-4039-4D00-9833-9355ED1A6E15}</Project>
+      <Project>{EF6A484E-D84E-4AB7-A016-302B06E99D68}</Project>
       <Name>TheChat</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,38 +1,75 @@
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Client.exe
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Client.deps.json
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Client.runtimeconfig.json
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Client.runtimeconfig.dev.json
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Client.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Client.pdb
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Connections.Abstractions.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Client.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Connections.Common.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Http.Features.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Client.Core.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Common.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Core.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Messages.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Core.pdb
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Messages.pdb
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.csprojAssemblyReference.cache
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.AssemblyInfoInputs.cache
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.AssemblyInfo.cs
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.csproj.CoreCompileInputs.cache
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.csproj.CopyComplete
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.dll
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.pdb
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.genruntimeconfig.cache
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.exe
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.deps.json
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.runtimeconfig.json
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.runtimeconfig.dev.json
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.pdb
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Client.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Common.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Client.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Client.Core.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/System.IO.Pipelines.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Core.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Messages.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Core.pdb
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Messages.pdb
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.csprojAssemblyReference.cache
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.AssemblyInfoInputs.cache
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.AssemblyInfo.cs
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.csproj.CoreCompileInputs.cache
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.csproj.CopyComplete
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.dll
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.pdb
+D:/XamarinForms/Cursos y Ejemplos/ElCaminoDev/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.genruntimeconfig.cache
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.deps.json
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.runtimeconfig.json
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.runtimeconfig.dev.json
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Client.pdb
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Connections.Abstractions.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Client.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Connections.Common.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Http.Features.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Client.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Client.Core.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Common.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Primitives.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/System.IO.Pipelines.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/System.Threading.Channels.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Core.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Messages.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Core.pdb
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/bin/Debug/netcoreapp3.1/TheChat.Messages.pdb
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.csprojAssemblyReference.cache
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.AssemblyInfoInputs.cache
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.AssemblyInfo.cs
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.csproj.CoreCompileInputs.cache
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.csproj.CopyComplete
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.dll
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.pdb
+/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/Debug/netcoreapp3.1/TheChat.Client.genruntimeconfig.cache

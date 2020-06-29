@@ -17,12 +17,12 @@ namespace TheChat.Core.Services
 {
     public class ChatService : IChatService
     {
-        
+
         private SemaphoreSlim semaphoreSlim = new SemaphoreSlim(1, 1);//Nos permite delimitar el número de hilos que puede acceder concurrentemente a un recurso
         private HttpClient httpClient;
         HubConnection hub;
         public event EventHandler<MessageEventArgs> OnReceivedMessage;
-        
+
         public bool IsConnected { get; set; }
         public string ConnectionToken { get; set; }
 
@@ -45,7 +45,7 @@ namespace TheChat.Core.Services
         public async Task InitAsync(string userId)
         {
             await semaphoreSlim.WaitAsync();
-            
+
             if (httpClient == null)
                 httpClient = new HttpClient();
 
@@ -85,7 +85,7 @@ namespace TheChat.Core.Services
         //Permite enviar mensajes a cada uno de los usuarios conectados en el hub
         public async Task SendMessageAsync(ChatMessage message)
         {
-            if(!IsConnected)
+            if (!IsConnected)
                 throw new InvalidOperationException("Not Connected");
 
             var json = JsonConvert.SerializeObject(message);
@@ -98,7 +98,7 @@ namespace TheChat.Core.Services
         {
             if (!IsConnected)
                 return;
-            
+
             message.Token = ConnectionToken;
             message.IsEntering = true;
 
@@ -184,7 +184,7 @@ namespace TheChat.Core.Services
             return users.Count;
         }
 
-        public async  Task<User> GetUser(string userId)
+        public async Task<User> GetUser(string userId)
         {
             var url = $"{Config.UserEndpoint}/{userId}";
             var result = await httpClient.GetStringAsync(url);

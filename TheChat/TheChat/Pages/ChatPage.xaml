@@ -4,12 +4,22 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TheChat.Pages.ChatPage">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="TheChat.Pages.ChatPage"
+             Visual="Material"
+             Title="{Binding GroupName,  StringFormat='{0} group'}">
+    <Grid RowSpacing="0"
+          RowDefinitions=".1*, .75*,.15*">
+        <Grid BackgroundColor="#efeff0">
+            <CollectionView ItemsSource="{Binding Users}"
+                            VerticalOptions="Center"
+                            HeightRequest="50"
+                            SelectionMode="Single"
+                            SelectedItem="{Binding SelectedUser}">
+
+            </CollectionView>
+     
+
+        </Grid>
+    </Grid>
+
 </ContentPage>
