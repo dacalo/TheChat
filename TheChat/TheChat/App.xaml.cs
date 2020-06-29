@@ -1,4 +1,5 @@
-﻿using FreshMvvm;
+﻿using Acr.UserDialogs;
+using FreshMvvm;
 using System;
 using TheChat.Core.Services;
 using TheChat.ViewModels;
@@ -24,6 +25,7 @@ namespace TheChat
         private void ConfigureContainer()
         {
             FreshIOC.Container.Register<IChatService, ChatService>();
+            FreshIOC.Container.Register<IUserDialogs>(UserDialogs.Instance);
         }
 
         protected override void OnStart()

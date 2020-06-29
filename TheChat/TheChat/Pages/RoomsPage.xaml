@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TheChat.Pages.RoomsPage"
+             NavigationPage.HasNavigationBar="False"
+             Visual="Material">
+    <ContentPage.Resources>
+        <Style TargetType="Grid">
+            <Setter Property="VisualStateManager.VisualStateGroups">
+                <VisualStateGroupList>
+                    <VisualStateGroup x:Name="CommonStates">
+                        <VisualState x:Name="Normal"/>
+                        <VisualState x:Name="Selected">
+                            <VisualState.Setters>
+                                <Setter Property="BackgroundColor" Value="#e8e8e8"/>
+                            </VisualState.Setters>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateGroupList>
+            </Setter>
+        </Style>
+    </ContentPage.Resources>
+    <Grid BackgroundColor="#e8e8e8" RowDefinitions=".1*, .9*">
+        <Grid BackgroundColor="#673AB7">
+            <Label Text="Selecciona la Sala"
+                   FontSize="Title"
+                   TextColor="White"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+        </Grid>
+        <CollectionView Grid.Row="1"
+                        Margin="20,0,20,0"
+                        ItemsSource="{Binding Rooms}"
+                        SelectionMode="Single"
+                        SelectedItem="{Binding CurrentRoom}"
+                        SelectionChangedCommand="{Binding EnterRoomCommand}">
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical"
+                                 Span="2"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid>
+                        <Frame BackgroundColor="White"
+                               HeightRequest="200"
+                               CornerRadius="10"
+                               Padding="0"
+                               HasShadow="False"
+                               Margin="5">
+                            <Grid ColumnSpacing="0"
+                                  RowSpacing="0"
+                                  RowDefinitions=".7*,.15*,.15*">
+                                <Image Source="{Binding Image}"
+                                       Aspect="AspectFill"/>
+                                <Label Text="{Binding Name}"
+                                       Grid.Row="1"
+                                       VerticalTextAlignment="Center"
+                                       HorizontalTextAlignment="Center"
+                                       FontSize="Large"
+                                       FontAttributes="Bold"/>
+                                <Label Text="{Binding UsersNumber, StringFormat='{0} usuarios en la sala'}"
+                                       Grid.Row="2"
+                                       HorizontalTextAlignment="Center"
+                                       VerticalTextAlignment="Center"/>
+
+                            </Grid>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+                        
+    </Grid>
+</ContentPage>
