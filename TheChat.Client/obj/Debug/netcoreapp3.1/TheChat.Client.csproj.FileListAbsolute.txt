@@ -25,7 +25,9 @@ D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\n
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\System.IO.Pipelines.dll
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\System.Threading.Channels.dll
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Core.dll
+D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Messages.dll
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Core.pdb
+D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\bin\Debug\netcoreapp3.1\TheChat.Messages.pdb
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.csprojAssemblyReference.cache
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.AssemblyInfoInputs.cache
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Client\obj\Debug\netcoreapp3.1\TheChat.Client.AssemblyInfo.cs

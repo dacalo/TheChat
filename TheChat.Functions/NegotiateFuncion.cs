@@ -16,7 +16,7 @@ namespace TheChat.Functions
         [FunctionName("negotiate")]
         public static SignalRConnectionInfo Run(
             [HttpTrigger(AuthorizationLevel.Anonymous, "get", "post", Route = "negotiate/{userId}")] HttpRequest req,
-            [SignalRConnectionInfo(HubName = "chat",UserId = "{userId}")] SignalRConnectionInfo connectionInfo,
+            [SignalRConnectionInfo(HubName = "chat", UserId = "{userId}")] SignalRConnectionInfo connectionInfo,
             ILogger log)
         {
             return connectionInfo;

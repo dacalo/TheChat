@@ -243,13 +243,24 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.AspNetCore.SignalR.Client": "3.1.5",
-          "Newtonsoft.Json": "12.0.3"
+          "Newtonsoft.Json": "12.0.3",
+          "TheChat.Messages": "1.0.0"
         },
         "compile": {
           "bin/placeholder/TheChat.Core.dll": {}
         },
         "runtime": {
           "bin/placeholder/TheChat.Core.dll": {}
+        }
+      },
+      "TheChat.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TheChat.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheChat.Messages.dll": {}
         }
       }
     }
@@ -618,6 +629,11 @@
       "type": "project",
       "path": "../TheChat.Core/TheChat.Core.csproj",
       "msbuildProject": "../TheChat.Core/TheChat.Core.csproj"
+    },
+    "TheChat.Messages/1.0.0": {
+      "type": "project",
+      "path": "../TheChat.Messages/TheChat.Messages.csproj",
+      "msbuildProject": "../TheChat.Messages/TheChat.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {

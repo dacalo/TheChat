@@ -383,6 +383,16 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "TheChat.Messages/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/TheChat.Messages.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TheChat.Messages.dll": {}
+        }
       }
     }
   },
@@ -1216,13 +1226,19 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "TheChat.Messages/1.0.0": {
+      "type": "project",
+      "path": "../TheChat.Messages/TheChat.Messages.csproj",
+      "msbuildProject": "../TheChat.Messages/TheChat.Messages.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
       "Microsoft.AspNetCore.SignalR.Client >= 3.1.5",
       "NETStandard.Library >= 2.0.3",
-      "Newtonsoft.Json >= 12.0.3"
+      "Newtonsoft.Json >= 12.0.3",
+      "TheChat.Messages >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1257,7 +1273,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj": {
+              "projectPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

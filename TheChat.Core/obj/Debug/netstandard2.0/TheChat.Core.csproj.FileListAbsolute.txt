@@ -1,9 +1,12 @@
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\bin\Debug\netstandard2.0\TheChat.Core.deps.json
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\bin\Debug\netstandard2.0\TheChat.Core.dll
+D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\bin\Debug\netstandard2.0\TheChat.Core.pdb
+D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\bin\Debug\netstandard2.0\TheChat.Messages.dll
+D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\bin\Debug\netstandard2.0\TheChat.Messages.pdb
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.csprojAssemblyReference.cache
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.AssemblyInfoInputs.cache
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.AssemblyInfo.cs
-D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\bin\Debug\netstandard2.0\TheChat.Core.pdb
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.csproj.CoreCompileInputs.cache
+D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.csproj.CopyComplete
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.dll
 D:\XamarinForms\Cursos y Ejemplos\ElCaminoDev\TheChat\TheChat.Core\obj\Debug\netstandard2.0\TheChat.Core.pdb
