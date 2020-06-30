@@ -3,9 +3,34 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:magic="clr-namespace:MagicGradients;assembly=MagicGradients"
              mc:Ignorable="d"
              x:Class="TheChat.App">
     <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PrimaryColor">#2f3e9e</Color>
+            <Color x:Key="PrimaryLightColor">#6668d0</Color>
+            <Color x:Key="PrimaryDarkColor">#00186f</Color>
+            <Color x:Key="SecondaryColor">#c5cae9</Color>
+            <Color x:Key="SecondaryLightColor">#f8fdff</Color>
+            <Color x:Key="SecondaryDarkColor">#9499b7</Color>
+            <Color x:Key="FontColor">#000000</Color>
+            <Color x:Key="FontWhiteColor">#ffffff</Color>
+            <Color x:Key="FontPlaceHolderColor">#dfe4ea</Color>
+            <Color x:Key="BackgroundColor">#efeff0</Color>
+        </ResourceDictionary>
 
+        <ControlTemplate x:Key="GradientPage">
+            <Grid>
+                <magic:GradientView VerticalOptions="FillAndExpand">
+                    <magic:CssGradientSource>
+                        <![CDATA[
+                        radial-gradient(circle at 44% 13%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 98%,transparent 98%, transparent 100%),radial-gradient(circle at 87% 84%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 46%,transparent 46%, transparent 100%),radial-gradient(circle at 84% 60%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 40%,transparent 40%, transparent 100%),radial-gradient(circle at 21% 32%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 28%,transparent 28%, transparent 100%),radial-gradient(circle at 57% 12%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 34%,transparent 34%, transparent 100%),radial-gradient(circle at 33% 60%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 29%,transparent 29%, transparent 100%),radial-gradient(circle at 3% 11%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 60%,transparent 60%, transparent 100%),radial-gradient(circle at 0% 74%, hsla(237,0%,100%,0.05) 0%, hsla(237,0%,100%,0.05) 87%,transparent 87%, transparent 100%),linear-gradient(45deg, rgb(99, 105, 190),rgb(99, 70, 205))
+                        ]]>
+                    </magic:CssGradientSource>
+                </magic:GradientView>
+                <ContentPresenter/>
+            </Grid>
+        </ControlTemplate>
     </Application.Resources>
 </Application>

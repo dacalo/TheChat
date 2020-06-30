@@ -1,8 +1,10 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "/Users/dacalo/.dotnet/store/|arch|/|tfm|",
-      "/Users/dacalo/.nuget/packages"
+      "C:\\Users\\DACALO\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\DACALO\\.nuget\\packages",
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
     ]
   }
 }

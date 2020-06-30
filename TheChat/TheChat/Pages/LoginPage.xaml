@@ -3,24 +3,28 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:helpers="clr-namespace:TheChat.Helpers"
              mc:Ignorable="d"
              x:Class="TheChat.Pages.LoginPage"
              NavigationPage.HasNavigationBar="False"
-             Visual="Material">
+             Visual="Material"
+             ControlTemplate="{StaticResource GradientPage}">
    <ContentPage.Padding>
        <OnPlatform x:TypeArguments="Thickness">
            <On Platform="Android">0</On>
            <On Platform="iOS">0,35,0,0</On>
        </OnPlatform>
    </ContentPage.Padding>
-    <Grid RowDefinitions="Auto, Auto" RowSpacing="0">
+    
+    <Grid RowDefinitions="Auto, Auto" RowSpacing="0" VerticalOptions="FillAndExpand">
         <Image Source="main.jpg" Aspect="AspectFill"/>
-        <Grid Grid.Row="1">
-            <Frame BackgroundColor="White" 
+        <Grid Grid.Row="1" >
+            <Frame BackgroundColor="{StaticResource BackgroundColor}" 
                    HorizontalOptions="FillAndExpand"
                    VerticalOptions="FillAndExpand"
                    CornerRadius="20"
-                   Margin="0,-20,0,-20">
+                   Margin="0,-20,0,-20"
+                   >
                 <StackLayout>
                     <Label Text="Bienvenido a El Chat"
                            FontSize="Title"
@@ -31,14 +35,18 @@
                            FontSize="Medium"
                            HorizontalTextAlignment="Center"/>
                     <Entry Placeholder="Usuario"
+                           PlaceholderColor="{StaticResource FontColor}"
                            Margin="25"
                            Text="{Binding UserName}"
                            ReturnCommand="{Binding ConnectCommand}"/>
                     <Button Text="Ingresar"
+                            ImageSource="{FontImage FontFamily=FontAwesome, Glyph={x:Static helpers:IconFont.Login}, Size=25, Color=White}"
+                            CornerRadius="30"
                             Margin="25"
-                            BackgroundColor="DarkOrange"
-                            Command="{Binding ConnectCommand}"/>
-
+                            HeightRequest="50"
+                            BackgroundColor="{StaticResource PrimaryColor}"
+                            Command="{Binding ConnectCommand}"
+                            TextColor="{StaticResource FontWhiteColor}"/>
                 </StackLayout>
             </Frame>
         </Grid>

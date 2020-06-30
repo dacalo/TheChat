@@ -3,22 +3,210 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:selectors="clr-namespace:TheChat.Selectors"
+             xmlns:pancakeView="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             xmlns:converters="clr-namespace:TheChat.Converters"
+             xmlns:helpers="clr-namespace:TheChat.Helpers"
              mc:Ignorable="d"
              x:Class="TheChat.Pages.ChatPage"
              Visual="Material"
-             Title="{Binding GroupName,  StringFormat='{0} group'}">
+             NavigationPage.HasBackButton="False"
+             ControlTemplate="{StaticResource GradientPage}"
+             Title="{Binding GroupName,  StringFormat='Grupo {0}'}">
+
+    <ContentPage.Resources>
+        <selectors:ChatMessageSelector x:Key="SelectedMessageTemplate"/>
+        <converters:Base64ToImageConverter x:Key="ToImage"/>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem 
+                     IconImageSource="{FontImage FontFamily=FontAwesome, Glyph={x:Static helpers:IconFont.ExitRun}, Size=30, Color=White}"
+                     Command="{Binding LeaveCommand}"/>
+    </ContentPage.ToolbarItems>
+    
     <Grid RowSpacing="0"
           RowDefinitions=".1*, .75*,.15*">
-        <Grid BackgroundColor="#efeff0">
+        <Grid BackgroundColor="{StaticResource BackgroundColor}">
             <CollectionView ItemsSource="{Binding Users}"
                             VerticalOptions="Center"
                             HeightRequest="50"
                             SelectionMode="Single"
-                            SelectedItem="{Binding SelectedUser}">
-
+                            SelectedItem="{Binding SelectedUser}"
+                            SelectionChangedCommand="{Binding ItemSelectedCommand}">
+                <CollectionView.ItemsLayout>
+                    <LinearItemsLayout Orientation="Horizontal" ItemSpacing="20"/>
+                </CollectionView.ItemsLayout>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="0"
+                               WidthRequest="50"
+                               HeightRequest="50"
+                               CornerRadius="25"
+                               HorizontalOptions="Center"
+                               VerticalOptions="Center"
+                               HasShadow="False"
+                               IsClippedToBounds="True" >
+                            <Image Source="{Binding Avatar}"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
             </CollectionView>
-     
+        </Grid>
+        <CollectionView Grid.Row="1"
+                        ItemsSource="{Binding Messages}"
+                        ItemTemplate="{StaticResource SelectedMessageTemplate}"
+                        Margin="10"
+                        ItemsUpdatingScrollMode="KeepLastItemInView">
+            <CollectionView.ItemsLayout>
+                <LinearItemsLayout Orientation="Vertical"
+                                   ItemSpacing="15"/>
+            </CollectionView.ItemsLayout>
+            <CollectionView.Resources>
+                <ResourceDictionary>
+                    <DataTemplate x:Key="SimpleText">
+                        <Grid Padding="10"
+                              ColumnDefinitions=".15*, .7*, .15*">
+                            <Frame Padding="0"
+                                   CornerRadius="30"
+                                   HasShadow="False"
+                                   HeightRequest="60"
+                                   WidthRequest="60"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   IsClippedToBounds="True"
+                                   BackgroundColor="{Binding Color}">
+                                <Image Source="{Binding Avatar}"/>
+                            </Frame>
+                            <pancakeView:PancakeView BackgroundColor="#E6E9EF"
+                                                     Grid.Column="1"
+                                                     CornerRadius="20,20,0,20"
+                                                     IsClippedToBounds="True"
+                                                     HorizontalOptions="FillAndExpand">
+                                <StackLayout Margin="15">
+                                    <Label Text="{Binding Sender}"
+                                           TextColor="{Binding Color}"
+                                           FontSize="Micro"
+                                           FontAttributes="Bold"/>
+                                    <Label Text="{Binding Text}"
+                                           TextColor="DarkSlateGray"
+                                           FontSize="Small"/>
+                                </StackLayout>
+                            </pancakeView:PancakeView>
+                        </Grid>
+                    </DataTemplate>
+                    <DataTemplate x:Key="LocalSimpleText">
+                        <Grid ColumnDefinitions=".2*, .7*, .1*">
+                            <pancakeView:PancakeView BackgroundColor="Navy"
+                                                     Grid.Column="1"
+                                                     Grid.ColumnSpan="2"
+                                                     CornerRadius="20,20,20,0"
+                                                     IsClippedToBounds="True"
+                                                     HorizontalOptions="FillAndExpand"
+                                                     Margin="0,5,0,0">
+                                <Grid>
+                                    <StackLayout Margin="15">
+                                        <Label Text="{Binding Text}"
+                                               TextColor="white"
+                                               FontSize="Small"/>
+                                    </StackLayout>
+                                </Grid>
+                            </pancakeView:PancakeView>
+                        </Grid>
+                    </DataTemplate>
+                    <DataTemplate x:Key="UserConnected">
+                        <Grid>
+                            <pancakeView:PancakeView
+                                BackgroundColor="#4c4c4c"
+                                CornerRadius="10"
+                                IsClippedToBounds="True"
+                                HorizontalOptions="FillAndExpand"
+                                HeightRequest="40"
+                                Margin="0,5,0,0">
+                                <StackLayout Orientation="Horizontal"
+                                             HorizontalOptions="Center">
+                                    <Label Text="{Binding Sender}"
+                                           TextColor="LightGray"
+                                           FontAttributes="Bold"
+                                           FontSize="Small"
+                                           VerticalOptions="Center"/>
+                                    <Label Text="Conectado"
+                                           TextColor="White"
+                                           VerticalOptions="Center"
+                                           FontSize="Small"/>
+                                </StackLayout>
+                            </pancakeView:PancakeView>
+                        </Grid>
+                    </DataTemplate>
+                    <DataTemplate x:Key="Photo">
+                        <Grid Padding="10"
+                              ColumnDefinitions=".15*, .7*, .15*">
+                            <Frame Padding="0"
+                                   CornerRadius="30"
+                                   HasShadow="False"
+                                   HeightRequest="60"
+                                   WidthRequest="60"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="Center"
+                                   IsClippedToBounds="True"
+                                   BackgroundColor="{Binding Color}">
+                                <Image Source="{Binding Avatar}"/>
+                            </Frame>
+                            <Frame CornerRadius="20"
+                                   IsClippedToBounds="False"
+                                   Padding="0"
+                                   Grid.Column="1"
+                                   BackgroundColor="#e6e9ef">
+                                <StackLayout Margin="15">
+                                    <Label Text="{Binding Sender}"
+                                           TextColor="{Binding Color}"
+                                           FontSize="Micro"
+                                           FontAttributes="Bold"/>
+                                    <Image Source="{Binding Url}"
+                                           HeightRequest="150"
+                                           HorizontalOptions="Fill"/>
 
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                    <DataTemplate x:Key="LocalPhoto">
+                        <Grid Padding="10"
+                              ColumnDefinitions=".2*, .7*, .1*">
+                            <Frame CornerRadius="30"
+                                   IsClippedToBounds="False"
+                                   Padding="0"
+                                   Grid.Column="1"
+                                   Grid.ColumnSpan ="2"
+                                   BackgroundColor="Navy">
+                                <StackLayout Margin="15">
+                                    <Image Source="{Binding Base64Photo, Converter={StaticResource ToImage}}"
+                                           Aspect="AspectFill"
+                                           HeightRequest="150"
+                                           HorizontalOptions="Fill"/>
+                                </StackLayout>
+                            </Frame>
+                        </Grid>
+                    </DataTemplate>
+                </ResourceDictionary>
+            </CollectionView.Resources>
+        </CollectionView>
+        <Grid Grid.Row="2"
+              BackgroundColor="#EFEFF0"
+              VerticalOptions="End"
+              ColumnDefinitions=".1*,.8*,.1*">
+            <ImageButton Source="photo.png"
+                         Command="{Binding PhotoCommand}"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"/>
+            <Editor Text="{Binding Text}"
+                    Grid.Column="1"
+                    AutoSize="TextChanges"/>
+            <ImageButton Source="send.png"
+                         Grid.Column="2"
+                         Command="{Binding SendCommand}"
+                         VerticalOptions="Center"
+                         HorizontalOptions="Center"/>
         </Grid>
     </Grid>
 

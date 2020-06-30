@@ -6,7 +6,8 @@
              mc:Ignorable="d"
              x:Class="TheChat.Pages.RoomsPage"
              NavigationPage.HasNavigationBar="False"
-             Visual="Material">
+             Visual="Material"
+             ControlTemplate="{StaticResource GradientPage}">
     <ContentPage.Resources>
         <Style TargetType="Grid">
             <Setter Property="VisualStateManager.VisualStateGroups">
@@ -23,8 +24,8 @@
             </Setter>
         </Style>
     </ContentPage.Resources>
-    <Grid BackgroundColor="#e8e8e8" RowDefinitions=".1*, .9*">
-        <Grid BackgroundColor="#673AB7">
+    <Grid RowDefinitions=".1*, .9*">
+        <Grid BackgroundColor="{StaticResource PrimaryColor}">
             <Label Text="Selecciona la Sala"
                    FontSize="Title"
                    TextColor="White"

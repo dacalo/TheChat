@@ -117,13 +117,13 @@ namespace TheChat.Core.Services
             {
                 new Room
                 {
-                    Name = "C#",
+                    Name = "C_Sharp",
                     Image = "csharp.png"
                 },
                 new Room
                 {
                     Name = "Xamarin",
-                    Image = "xamarin.ong"
+                    Image = "xamarin.png"
                 },
                 new Room
                 {
@@ -132,17 +132,17 @@ namespace TheChat.Core.Services
                 },
                 new Room
                 {
-                    Name = "ASP .NET Core",
+                    Name = "ASP_.NET_Core",
                     Image = "aspcore.png"
                 },
                 new Room
                 {
-                    Name = "Xamarin Forms",
+                    Name = "Xamarin_Forms",
                     Image = "xamforms.png"
                 },
                 new Room
                 {
-                    Name = "Visual Studio",
+                    Name = "Visual_Studio",
                     Image = "visualstudio.png"
                 },
             };

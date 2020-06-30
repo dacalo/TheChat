@@ -1,32 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/TheChat.Client.csproj": {}
+    "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Client\\TheChat.Client.csproj": {}
   },
   "projects": {
-    "/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/TheChat.Client.csproj": {
+    "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Client\\TheChat.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/TheChat.Client.csproj",
+        "projectUniqueName": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Client\\TheChat.Client.csproj",
         "projectName": "TheChat.Client",
-        "projectPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/TheChat.Client.csproj",
-        "packagesPath": "/Users/dacalo/.nuget/packages/",
-        "outputPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Client/obj/",
+        "projectPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Client\\TheChat.Client.csproj",
+        "packagesPath": "C:\\Users\\DACALO\\.nuget\\packages\\",
+        "outputPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Client\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/dacalo/.config/NuGet/NuGet.Config"
+          "C:\\Users\\DACALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "/Users/dacalo/Documents/Projects/TheChat/TheChat.Core/TheChat.Core.csproj": {
-                "projectPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Core/TheChat.Core.csproj"
+              "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Core\\TheChat.Core.csproj": {
+                "projectPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Core\\TheChat.Core.csproj"
               }
             }
           }
@@ -54,33 +61,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dacalo/Documents/Projects/TheChat/TheChat.Core/TheChat.Core.csproj": {
+    "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Core\\TheChat.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Core/TheChat.Core.csproj",
+        "projectUniqueName": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Core\\TheChat.Core.csproj",
         "projectName": "TheChat.Core",
-        "projectPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Core/TheChat.Core.csproj",
-        "packagesPath": "/Users/dacalo/.nuget/packages/",
-        "outputPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Core/obj/",
+        "projectPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Core\\TheChat.Core.csproj",
+        "packagesPath": "C:\\Users\\DACALO\\.nuget\\packages\\",
+        "outputPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/dacalo/.config/NuGet/NuGet.Config"
+          "C:\\Users\\DACALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "/Users/dacalo/Documents/Projects/TheChat/TheChat.Messages/TheChat.Messages.csproj": {
-                "projectPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Messages/TheChat.Messages.csproj"
+              "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj": {
+                "projectPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj"
               }
             }
           }
@@ -119,26 +133,33 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/dacalo/Documents/Projects/TheChat/TheChat.Messages/TheChat.Messages.csproj": {
+    "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Messages/TheChat.Messages.csproj",
+        "projectUniqueName": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj",
         "projectName": "TheChat.Messages",
-        "projectPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Messages/TheChat.Messages.csproj",
-        "packagesPath": "/Users/dacalo/.nuget/packages/",
-        "outputPath": "/Users/dacalo/Documents/Projects/TheChat/TheChat.Messages/obj/",
+        "projectPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\TheChat.Messages.csproj",
+        "packagesPath": "C:\\Users\\DACALO\\.nuget\\packages\\",
+        "outputPath": "D:\\XamarinForms\\Cursos y Ejemplos\\ElCaminoDev\\TheChat\\TheChat.Messages\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "/Users/dacalo/.config/NuGet/NuGet.Config"
+          "C:\\Users\\DACALO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -172,7 +193,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
