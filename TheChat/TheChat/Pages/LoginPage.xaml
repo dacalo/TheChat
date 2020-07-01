@@ -15,16 +15,14 @@
            <On Platform="iOS">0,35,0,0</On>
        </OnPlatform>
    </ContentPage.Padding>
-    
-    <Grid RowDefinitions="Auto, Auto" RowSpacing="0" VerticalOptions="FillAndExpand">
+    <Grid RowDefinitions="Auto, *" RowSpacing="0" VerticalOptions="FillAndExpand">
         <Image Source="main.jpg" Aspect="AspectFill"/>
-        <Grid Grid.Row="1" >
+        <Grid Grid.Row="1">
             <Frame BackgroundColor="{StaticResource BackgroundColor}" 
                    HorizontalOptions="FillAndExpand"
                    VerticalOptions="FillAndExpand"
                    CornerRadius="20"
-                   Margin="0,-20,0,-20"
-                   >
+                   Margin="0,-20,0,-20">
                 <StackLayout>
                     <Label Text="Bienvenido a El Chat"
                            FontSize="Title"
@@ -46,7 +44,8 @@
                             HeightRequest="50"
                             BackgroundColor="{StaticResource PrimaryColor}"
                             Command="{Binding ConnectCommand}"
-                            TextColor="{StaticResource FontWhiteColor}"/>
+                            TextColor="{StaticResource FontWhiteColor}"
+                            VerticalOptions="EndAndExpand"/>
                 </StackLayout>
             </Frame>
         </Grid>
